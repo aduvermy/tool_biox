@@ -1,0 +1,10 @@
+[package]
+name = "tool_biox"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+path = "src/main.rs"
+name = "tool_biox"  # Vous pouvez nommer votre exécutable ici, s'il est différent du nom du package
